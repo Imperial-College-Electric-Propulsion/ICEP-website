@@ -6,7 +6,7 @@
 .multi-page .page-intro-copy{max-width:770px;font-size:20px;line-height:1.8;color:var(--muted);margin:0}
 .multi-page .page-intro+.project-section{padding-top:44px}
 .multi-page .page-intro+.teams-section{border-top:0;padding-top:10px}
-.multi-page .page-intro+.involved-section{padding-top:14px;border-top:0}
+.multi-page .page-intro+.involved-section{padding-top:26px;border-top:0}
 .multi-page .vision-content{margin-top:44px;margin-bottom:0}
 .multi-page .vision-content .future-heading h2{font-size:34px;line-height:1.3;color:var(--lilac);margin-bottom:18px}
 .multi-page .vision-content .future-grid h3{font-size:22px;line-height:1.5;color:var(--white);margin-bottom:12px}
@@ -43,10 +43,12 @@
 .multi-page .hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:360px}
 @media(max-width:360px){.multi-page .hero-actions{grid-template-columns:1fr;max-width:260px}}
 
-/* Give funding acknowledgements the purple section treatment. */
-.multi-page .sponsors-section{display:block;background:var(--panel);border-block:1px solid var(--line)}
+/* Shared sponsor layout and plain support sections. */
+.multi-page .sponsors-section{display:block;background:transparent;border-top:1px solid var(--line);border-bottom:0;padding-block:48px}
 .multi-page .sponsors-inner{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:80px;align-items:start}
-.multi-page .involved-section{background:transparent;border-block:0}
+.multi-page .involved-section{background:transparent;border-block:0;padding-bottom:38px}
+.multi-page .involved-grid{margin-top:0}
+.multi-page .involved-grid article{padding-top:0;border-top:0}
 @media(max-width:1000px){.multi-page .sponsors-inner{gap:50px}}
 @media(max-width:740px){
   .multi-page .sponsors-inner{grid-template-columns:1fr;gap:28px}
@@ -57,3 +59,5 @@
   .multi-page .footer-consortium{display:block;margin-top:7px}
   .multi-page .site-footer>.footer-link{justify-self:start;margin-left:0;gap:10px;padding-block:8px}
 }
+
+@media(max-width:740px){.multi-page .page-intro+.involved-section{padding-top:24px}.multi-page .involved-section{padding-bottom:30px}.multi-page .involved-grid{gap:28px}.multi-page .sponsors-section{padding-block:38px}}
