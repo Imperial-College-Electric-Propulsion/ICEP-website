@@ -61,3 +61,6 @@
 }
 
 @media(max-width:740px){.multi-page .page-intro+.involved-section{padding-top:24px}.multi-page .involved-section{padding-bottom:30px}.multi-page .involved-grid{gap:28px}.multi-page .sponsors-section{padding-block:38px}}
+
+/* Let the four ambitions share the introduction's single divider. */
+.multi-page .vision-content .future-grid article{border-top:0;padding-top:0}
