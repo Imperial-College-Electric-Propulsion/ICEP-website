@@ -38,3 +38,7 @@
 
 .multi-page .vision-content .future-grid p{font-size:18px;line-height:1.85;color:var(--muted);margin:0}
 @media(max-width:740px){.multi-page .vision-content .future-grid p{font-size:17px}}
+
+/* Keep the home page actions balanced when space is limited. */
+.multi-page .hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:360px}
+@media(max-width:360px){.multi-page .hero-actions{grid-template-columns:1fr;max-width:260px}}
