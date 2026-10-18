@@ -178,3 +178,12 @@ nav{flex-wrap:wrap;justify-content:flex-end;gap:10px 26px;font-size:16px}
 @media(max-width:1000px){.team-branch{padding:22px}.role-card{padding:20px}.role-card h4{font-size:21px}.branch-heading>p:last-child{font-size:17px}.team-branches{gap:24px}.team-branches::before{left:calc(25% - 6px);right:calc(25% - 6px)}}
 @media(max-width:740px){.team-map{margin-top:28px}.team-map-root{font-size:22px;padding:13px 34px}.team-map-root::after,.team-branches::before,.team-branch::before{display:none}.team-branches{grid-template-columns:1fr;gap:22px;margin-top:22px}.team-branch{padding:23px;border-radius:18px}.branch-heading h3{font-size:30px}.role-card{padding:21px}.role-card h4{font-size:21px}.role-card p{font-size:17px}.team-map .marketing-role{grid-template-columns:1fr;gap:17px;margin-top:22px;padding:23px}.team-map .marketing-role>p{font-size:17px}}
 @media(max-width:440px){.team-branch{padding:20px 17px}.role-card{padding:19px 17px}.role-card h4{font-size:20px}.branch-heading>p:last-child,.role-card p,.team-map .marketing-role>p{font-size:17px}.team-map .marketing-role{padding:22px 20px}}
+
+/* Consortium attribution beneath the hero logo and a distinct future section. */
+.hero-art .consortium-subtitle{font-size:15px;line-height:1.65;text-align:center;max-width:440px;margin:17px auto 0;padding-inline:12px;color:#cbb7dd}
+.future-scope{margin-top:52px;padding:38px 32px 32px;border-top:5px solid #a16ce5;border-bottom:1px solid #4d3266;border-radius:0 0 18px 18px;background:#140b21}
+.future-heading{max-width:880px;margin-bottom:30px}
+.future-heading h3{font-size:34px;margin-bottom:18px}
+.future-grid article{border-top-color:#674681}
+@media(max-width:740px){.hero-art .consortium-subtitle{font-size:14px;margin-top:15px;max-width:380px}.future-scope{margin-top:38px;padding:29px 22px 25px}.future-heading h3{font-size:29px}}
+@media(max-width:440px){.future-scope{padding-inline:18px}.hero-art .consortium-subtitle{padding-inline:0}}
