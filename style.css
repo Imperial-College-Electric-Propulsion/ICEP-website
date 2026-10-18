@@ -146,3 +146,35 @@ nav{flex-wrap:wrap;justify-content:flex-end;gap:10px 26px;font-size:16px}
 @media(max-width:740px){.hero-intro{font-size:18px}.consortium-subtitle{font-size:15px}.hero-wordmark{font-size:14px;letter-spacing:2.5px}.section-copy p,.project-intro>p,.involved-grid p,.scope-grid p,.future-grid p,.team-list p,.marketing-role>p,.scope-heading>p,.teams-heading>p,.team-group-heading>p{font-size:17px}.community-stats{gap:18px;margin-top:30px}.community-stats dd{font-size:44px}.community-stats dt{font-size:15px}.project-intro .project-facts{gap:24px}.project-intro .project-facts .fact-scope{font-size:17px}.future-grid{grid-template-columns:1fr;gap:24px}.future-heading h3{font-size:28px}.team-list article{grid-template-columns:22px minmax(0,1fr);gap:6px 15px}.team-list article>.team-role,.team-list article>p{grid-column:2}.team-role h4{font-size:21px}.footer-identity p{font-size:14px;max-width:none}.footer-link{font-size:15px}.earth-credit{font-size:11px}}
 @media(max-width:620px){nav{justify-content:center;font-size:15px;gap:4px 18px}.site-header{gap:14px}.footer-identity{align-items:start}.footer-identity p{font-size:14px;max-width:none}.site-footer>.footer-link{margin-left:116px}}
 @media(max-width:440px){h1{font-size:44px}.project-intro h2{font-size:40px}.button{font-size:16px}.status{font-size:13px}.community-stats{gap:12px}.community-stats dd{font-size:40px}.community-stats dt{font-size:14px}.project-intro .project-facts{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 18px}.project-intro .project-facts dd{font-size:44px}.project-intro .project-facts dd>span{font-size:26px}.project-intro .project-facts .fact-text{font-size:26px}.project-intro .project-facts .fact-scope{font-size:16px}.project-intro .project-facts dt{font-size:14px}.footer-identity p{font-size:14px}}
+
+/* Team hierarchy with two branches and readable role cards. */
+.hero-actions .button{gap:14px;padding-inline:18px}
+#sponsor-contact{scroll-margin-top:35px}
+.team-map{margin-top:38px}
+.team-map-root{position:relative;width:max-content;margin:0 auto;padding:15px 40px;border:1px solid #aa7af0;border-radius:999px;background:#25113e;color:#f4e8ff;font-size:24px;font-weight:600;letter-spacing:1px;line-height:1.2}
+.team-map-root::after{content:"";position:absolute;left:50%;bottom:-17px;width:1px;height:17px;background:#78569b}
+.team-branches{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;margin-top:33px;align-items:start}
+.team-branches::before{content:"";position:absolute;left:calc(25% - 7.5px);right:calc(25% - 7.5px);top:-17px;height:1px;background:#78569b}
+.team-branch{position:relative;min-width:0;border:1px solid #664184;border-radius:20px;background:#11091c;padding:28px}
+.team-branch::before{content:"";position:absolute;left:50%;top:-17px;width:1px;height:16px;background:#78569b}
+.branch-heading{margin-bottom:25px}
+.branch-heading .branch-label{font-size:13px;line-height:1.5;letter-spacing:1.4px;text-transform:uppercase;color:#d6b1ff;margin:0 0 10px}
+.branch-heading h3{font-size:32px;line-height:1.2;font-weight:500;color:#e5caff;margin:0 0 14px;letter-spacing:-.5px}
+.branch-heading>p:last-child{font-size:18px;line-height:1.65;color:var(--muted);margin:0}
+.branch-roles{display:grid;gap:16px}
+.role-card{min-width:0;border:1px solid #4d335f;border-radius:14px;background:#1b1028;padding:23px}
+.role-card h4{font-size:22px;line-height:1.4;font-weight:500;letter-spacing:-.2px;margin:0 0 13px;color:var(--white);overflow-wrap:break-word}
+.role-card p{font-size:17px;line-height:1.8;color:#cec1db;margin:0}
+.role-tool{display:inline-block;font-size:14px;line-height:1.6;color:#dac5f6;margin-top:18px;padding:5px 11px;background:#291b3c;border-radius:999px}
+.simulations-branch{border-color:#5c528b;background:#100c20}
+.simulations-branch .branch-label{color:#c1bdff}
+.simulations-branch .branch-heading h3{color:#d0cbff}
+.simulations-branch .role-card{background:#19142c;border-color:#453b65}
+.simulations-branch .role-tool{background:#29213f;color:#d9d2ff}
+.team-map .marketing-role{border:1px solid #75475c;border-radius:16px;background:#211122;margin-top:25px;padding:25px 28px;grid-template-columns:1fr 1.65fr;gap:28px}
+.team-map .marketing-role .eyebrow{font-size:13px;color:#e8b4d8;letter-spacing:1px;line-height:1.6}
+.team-map .marketing-role h3{font-size:25px;line-height:1.3}
+.team-map .marketing-role>p{font-size:17px;line-height:1.8;max-width:none}
+@media(max-width:1000px){.team-branch{padding:22px}.role-card{padding:20px}.role-card h4{font-size:21px}.branch-heading>p:last-child{font-size:17px}.team-branches{gap:24px}.team-branches::before{left:calc(25% - 6px);right:calc(25% - 6px)}}
+@media(max-width:740px){.team-map{margin-top:28px}.team-map-root{font-size:22px;padding:13px 34px}.team-map-root::after,.team-branches::before,.team-branch::before{display:none}.team-branches{grid-template-columns:1fr;gap:22px;margin-top:22px}.team-branch{padding:23px;border-radius:18px}.branch-heading h3{font-size:30px}.role-card{padding:21px}.role-card h4{font-size:21px}.role-card p{font-size:17px}.team-map .marketing-role{grid-template-columns:1fr;gap:17px;margin-top:22px;padding:23px}.team-map .marketing-role>p{font-size:17px}}
+@media(max-width:440px){.team-branch{padding:20px 17px}.role-card{padding:19px 17px}.role-card h4{font-size:20px}.branch-heading>p:last-child,.role-card p,.team-map .marketing-role>p{font-size:17px}.team-map .marketing-role{padding:22px 20px}}
