@@ -42,3 +42,18 @@
 /* Keep the home page actions balanced when space is limited. */
 .multi-page .hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:360px}
 @media(max-width:360px){.multi-page .hero-actions{grid-template-columns:1fr;max-width:260px}}
+
+/* Give funding acknowledgements the purple section treatment. */
+.multi-page .sponsors-section{display:block;background:var(--panel);border-block:1px solid var(--line)}
+.multi-page .sponsors-inner{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:80px;align-items:start}
+.multi-page .involved-section{background:transparent;border-block:0}
+@media(max-width:1000px){.multi-page .sponsors-inner{gap:50px}}
+@media(max-width:740px){
+  .multi-page .sponsors-inner{grid-template-columns:1fr;gap:28px}
+  .multi-page .site-footer{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;padding-block:30px}
+  .multi-page .footer-identity{display:flex;flex-direction:column;align-items:flex-start;gap:18px;width:100%;min-width:0}
+  .multi-page .footer-logo{width:120px}
+  .multi-page .footer-identity p{width:100%;max-width:none;padding-left:0;border-left:0;font-size:14px;line-height:1.8}
+  .multi-page .footer-consortium{display:block;margin-top:7px}
+  .multi-page .site-footer>.footer-link{justify-self:start;margin-left:0;gap:10px;padding-block:8px}
+}
