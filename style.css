@@ -187,3 +187,16 @@ nav{flex-wrap:wrap;justify-content:flex-end;gap:10px 26px;font-size:16px}
 .future-grid article{border-top-color:#674681}
 @media(max-width:740px){.hero-art .consortium-subtitle{font-size:14px;margin-top:15px;max-width:380px}.future-scope{margin-top:38px;padding:29px 22px 25px}.future-heading h3{font-size:29px}}
 @media(max-width:440px){.future-scope{padding-inline:18px}.hero-art .consortium-subtitle{padding-inline:0}}
+
+/* Concise lists for the About, scope and ambitions sections. */
+.digest-list{padding-left:1.15em;margin:0;color:var(--muted);font-size:18px;line-height:1.75}
+.digest-list li{padding-left:3px}
+.digest-list li+li{margin-top:10px}
+.digest-list li::marker{color:#b985ed}
+.section-copy .about-lead{font-size:20px;line-height:1.7;color:#eee3f7;margin-bottom:22px}
+.about-features strong{color:var(--white);font-weight:600}
+.section-copy .welcome-note{font-size:17px;margin:21px 0 0;color:#d5c7df}
+.section-copy .support-note{margin-top:23px}
+.scope-grid .digest-list,.future-grid .digest-list{font-size:18px;line-height:1.75}
+.future-heading{margin-bottom:24px}
+@media(max-width:740px){.digest-list,.scope-grid .digest-list,.future-grid .digest-list{font-size:17px}.section-copy .about-lead{font-size:18px}.digest-list li+li{margin-top:9px}}
