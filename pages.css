@@ -66,3 +66,8 @@
 .multi-page .vision-content .future-grid{gap:22px}
 .multi-page .vision-content .future-grid article{padding:26px;border:1px solid #382248;border-radius:18px;background:#10091b}
 @media(max-width:740px){.multi-page .vision-content .future-grid{grid-template-columns:1fr;gap:18px}.multi-page .vision-content .future-grid article{padding:22px}}
+
+
+/* Decorative contact icons inherit the link colour. */
+.multi-page .contact-icon{display:block;width:20px;height:20px;flex:0 0 20px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.multi-page .footer-link{align-items:center}
