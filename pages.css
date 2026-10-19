@@ -57,7 +57,7 @@
   .multi-page .footer-logo{width:120px}
   .multi-page .footer-identity p{width:100%;max-width:none;padding-left:0;border-left:0;font-size:14px;line-height:1.8}
   .multi-page .footer-consortium{display:block;margin-top:7px}
-  .multi-page .site-footer>.footer-link{justify-self:start;margin-left:0;gap:10px;padding-block:8px}
+  .multi-page .site-footer>.footer-contact{justify-self:start;margin-left:0}
 }
 
 @media(max-width:740px){.multi-page .page-intro+.involved-section{padding-top:24px}.multi-page .involved-section{padding-bottom:30px}.multi-page .involved-grid{gap:28px}.multi-page .sponsors-section{padding-block:38px}}
@@ -71,3 +71,9 @@
 /* Decorative contact icons inherit the link colour. */
 .multi-page .contact-icon{display:block;width:20px;height:20px;flex:0 0 20px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
 .multi-page .footer-link{align-items:center}
+
+/* Keep social links together above the general contact address. */
+.multi-page .site-footer{flex-wrap:wrap}
+.multi-page .footer-contact{display:flex;flex-direction:column;align-items:flex-start;gap:2px;margin-left:auto;max-width:100%}
+.multi-page .footer-socials{display:flex;flex-wrap:wrap;gap:2px 20px;max-width:100%}
+.multi-page .footer-contact .footer-link{gap:10px;padding-block:6px}
