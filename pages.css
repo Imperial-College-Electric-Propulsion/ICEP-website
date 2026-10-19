@@ -62,7 +62,7 @@
 
 @media(max-width:740px){.multi-page .page-intro+.involved-section{padding-top:24px}.multi-page .involved-section{padding-bottom:30px}.multi-page .involved-grid{gap:28px}.multi-page .sponsors-section{padding-block:38px}}
 
-/* Give each longer-term ambition its own quiet, rounded panel. */
+/* Give each aim its own quiet, rounded panel. */
 .multi-page .vision-content .future-grid{gap:22px}
 .multi-page .vision-content .future-grid article{padding:26px;border:1px solid #382248;border-radius:18px;background:#10091b}
 @media(max-width:740px){.multi-page .vision-content .future-grid{grid-template-columns:1fr;gap:18px}.multi-page .vision-content .future-grid article{padding:22px}}

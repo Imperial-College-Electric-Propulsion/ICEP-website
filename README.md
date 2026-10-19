@@ -2,7 +2,7 @@
 
 Website for Imperial College Electric Propulsion.
 
-Live address: https://dce521.github.io/icep-website/
+Live address: https://imperial-college-electric-propulsion.github.io/ICEP-website/
 
 This is a static, five-page website. Edit `index.html`, `project.html`, `vision.html`, `teams.html` and `support.html`, with shared styling in `style.css` and `pages.css` and images in `assets/`. No installation or build command is required. The former `multi-page/` URLs redirect to the main pages.
 
